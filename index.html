@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>vosco</title>
+</head>
+<body>
+    <div class="container" >
+        <nav>
+            <a class="logo" href="#">vosco <span id="logo">Shop</span></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    <div class="content">
+    <div class="text">
+    <h2> nike nba <span> basketball </span> shoes  </h2>
+    <p>Match your favorite team's shoes with your personal look in NBA style...</p>
+    <div class="buttom">
+      <a href="#">shop now</a>
+    </div>
+    </div>  
+    <div class="image">
+     <img class="img" src="../pngwing.com.png" >
+    </div>
+    </div>
+    <div class="icons">
+    <img onclick="shoes(this.src)" src="../pngwing.com.png">
+    <img onclick="shoes(this.src)" id="photo" src="../sneakers-removebg-preview.png">
+    </div>
+    </div>
+
+    <script>
+    let img = document.querySelector('.img')
+    function shoes(shoes){
+        img.src = shoes;
+    }
+    </script>
+</body>
+</html>
